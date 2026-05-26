@@ -6,7 +6,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-[var(--dark-azure)] sticky top-0 shadow bg-dark">
+    <nav className="bg-[var(--dark-azure)] sticky top-0 shadow">
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo */}
         <a href="#hero" className="flex items-center">
