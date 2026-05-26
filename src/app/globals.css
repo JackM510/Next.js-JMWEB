@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 :root {
+  --dark-azure: #203849;
+
+
   --background: #ffffff;
   --foreground: #171717;
 }

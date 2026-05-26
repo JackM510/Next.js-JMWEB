@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
       "Reliable and affordable website solutions across Australia.",
     url: "https://jmweb.com.au/",
     siteName: "JM Web",
-    images: ["/og-image.jpg"], // optional but recommended
+    images: ["/og-image.jpg"],
     locale: "en_AU",
     type: "website",
   },
@@ -49,6 +50,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
