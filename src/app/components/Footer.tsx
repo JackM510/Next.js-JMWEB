@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
         <footer className="bg-[var(--dark-azure)] text-light pt-8 pb-4">
-            <div className="w-full px-8 md:px-16">
+            <div className="w-full site-padding">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                     {/* Quick Links */}
                     <div>
