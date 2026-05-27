@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@layer utilities {
+  .header-container {
+    @apply w-full px-4 md:px-8 lg:px-12;
+  }
+}
+
 :root {
   --dark-azure: #203849;
   --azure: #29c2d5;
@@ -22,6 +28,11 @@
   }
 }
 
+
+
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: var(--background);
   color: var(--foreground);
