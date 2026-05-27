@@ -1,10 +1,13 @@
 @import "tailwindcss";
 
-@layer utilities {
-  .header-container {
-    @apply w-full px-4 md:px-8 lg:px-12;
+
+  @layer utilities {
+    .site-padding {
+      @apply w-full px-4 md:px-8 lg:px-12;
+    }
   }
-}
+
+
 
 :root {
   --dark-azure: #203849;

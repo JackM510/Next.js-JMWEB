@@ -10,7 +10,7 @@ export default function Navbar() {
       bg-[var(--dark-azure)] h-[70px] sticky top-0 shadow 
       [&_a]:hover:transition-opacity [&_a]:hover:opacity-80
       ">
-      <div className="w-full h-full relative flex items-center justify-between py-[10px] header-container">
+      <div className="w-full h-full relative flex items-center justify-between site-padding py-[10px]">
         
         {/* Mobile toggle */}
         <button className="md:hidden" onClick={() => setOpen(!open)}>
