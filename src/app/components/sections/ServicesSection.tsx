@@ -24,6 +24,9 @@ export default function ServicesSection() {
                         id="web-development"
                         icon="assets/icons/typescript.svg"
                         title="Web Development"
+                        button
+                        buttonId='websiteDevelopment'
+                        buttonText='Read More'
                         description="Build a website tailored to your needs or refine your existing site as your business grows."
                     />
                     {/* Web Development */}
@@ -31,6 +34,9 @@ export default function ServicesSection() {
                         id="web-development"
                         icon="assets/icons/typescript.svg"
                         title="Lorem ipsum"
+                        button
+                        buttonId='test'
+                        buttonText='Read More'
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
   ullamcorper justo."
                     />
@@ -39,6 +45,9 @@ export default function ServicesSection() {
                         id="web-development"
                         icon="assets/icons/typescript.svg"
                         title="Lorem ipsum"
+                        button
+                        buttonId='test'
+                        buttonText='Read More'
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
   ullamcorper justo."
                     />
