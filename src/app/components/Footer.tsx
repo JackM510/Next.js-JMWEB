@@ -17,9 +17,30 @@ export default function Footer() {
                     <div>
                         <h4 className="text-xl font-semibold mb-4">Developed With</h4>
                         <div className="flex gap-4 [&_img]:hover:opacity-80 transition-opacity">
-                            <img src="assets/icons/nextdotjs.svg" className="h-8"/>
-                            <img src="assets/icons/tailwindcss.svg" className="h-8"/>
-                            <img src="assets/icons/typescript.svg" className="h-8"/>
+                            <div className="relative group">
+                                <img src="assets/icons/nextdotjs.svg" className="h-8" />
+                                <span className="absolute left-1/2 -translate-x-1/2 -top-6 
+                                                text-xs bg-black text-white px-2 py-1 rounded 
+                                                opacity-0 group-hover:opacity-100 transition-opacity">
+                                Next.js
+                                </span>
+                            </div>
+                            <div className="relative group">
+                                <img src="assets/icons/tailwindcss.svg" className="h-8" />
+                                <span className="absolute left-1/2 -translate-x-1/2 -top-6 
+                                                text-xs bg-black text-white px-2 py-1 rounded 
+                                                opacity-0 group-hover:opacity-100 transition-opacity">
+                                Tailwind CSS
+                                </span>
+                            </div>
+                            <div className="relative group">
+                                <img src="assets/icons/typescript.svg" className="h-8" />
+                                <span className="absolute left-1/2 -translate-x-1/2 -top-6 
+                                                text-xs bg-black text-white px-2 py-1 rounded 
+                                                opacity-0 group-hover:opacity-100 transition-opacity">
+                                TypeScript
+                                </span>
+                            </div>
                         </div>
                     </div>
                     {/* Copyright */}
