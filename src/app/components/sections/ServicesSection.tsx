@@ -10,6 +10,9 @@ export default function ServicesSection() {
                 <InfoRow color="text-[var(--dark-azure)]" background="bg-[var(--ghost-white)]"
                     title="Launch a Website"
                     text="Start your online journey today. Answer 6 quick questions to receive tailored solutions for your project."
+                    button
+                    buttonId="startWebsite"
+                    buttonText="Start Website"
                     imgSrc="/assets/images/service-offering.jpg"
                     imgAlt="test"
                     reverse
